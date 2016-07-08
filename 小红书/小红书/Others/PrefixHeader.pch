@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  小红书
+//
+//  Created by Aesthetic92 on 16/7/8.
+//  Copyright © 2016年 Aesthetic92. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define JSRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define JSGlobalBg JSRGBColor(247, 247, 247)
+#define JSTabBarItemTitleColor JSRGBColor(255, 0, 45)
+
+#define JSTagFont [UIFont systemFontOfSize:14]
+
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
