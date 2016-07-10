@@ -13,6 +13,19 @@
 		0CB597961D2EC8CB00F0CB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB597941D2EC8CB00F0CB63 /* LaunchScreen.storyboard */; };
 		0CB597A11D2EC8CB00F0CB63 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB597A01D2EC8CB00F0CB63 /* ___Tests.m */; };
 		0CB597AC1D2EC8CB00F0CB63 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB597AB1D2EC8CB00F0CB63 /* ___UITests.m */; };
+		0CD1E9AF1D30B673004261B0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E9AE1D30B673004261B0 /* UIView+Extension.m */; };
+		0CD1E9B21D30B694004261B0 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E9B11D30B694004261B0 /* UIBarButtonItem+Extension.m */; };
+		0CD1E9B81D30CFE3004261B0 /* XHSWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E9B71D30CFE3004261B0 /* XHSWaterLayout.m */; };
+		0CD1E9BC1D310FE9004261B0 /* XHSHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E9BA1D310FE9004261B0 /* XHSHomeCell.m */; };
+		0CD1E9BD1D310FE9004261B0 /* XHSHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1E9BB1D310FE9004261B0 /* XHSHomeCell.xib */; };
+		0CD1E9C01D311B62004261B0 /* XHSHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E9BF1D311B62004261B0 /* XHSHomeModel.m */; };
+		0CD1E9C31D31206E004261B0 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E9C21D31206E004261B0 /* UIImage+Extension.m */; };
+		0CD1E9C71D3141C8004261B0 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E9C61D3141C8004261B0 /* Foundation+Log.m */; };
+		0CD50AF91D323C6F00E400C3 /* XHSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD50AF81D323C6F00E400C3 /* XHSDetailViewController.m */; };
+		0CD50AFE1D32499F00E400C3 /* XHSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD50AFD1D32499F00E400C3 /* XHSItem.m */; };
+		0CD50B011D32662F00E400C3 /* XHSNewFansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD50B001D32662F00E400C3 /* XHSNewFansViewController.m */; };
+		0CD50B051D32682000E400C3 /* XHSMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD50B031D32682000E400C3 /* XHSMessageCell.m */; };
+		0CD50B061D32682000E400C3 /* XHSMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD50B041D32682000E400C3 /* XHSMessageCell.xib */; };
 		0CDF626A1D2F552B00C68874 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF624B1D2F552B00C68874 /* AppDelegate.m */; };
 		0CF2FC811D2FF9BD00628D5E /* XHSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FC801D2FF9BD00628D5E /* XHSTabBarController.m */; };
 		0CF2FC841D2FFA0300628D5E /* XHSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FC831D2FFA0300628D5E /* XHSNavigationController.m */; };
@@ -21,6 +34,7 @@
 		0CF2FC8E1D300B7C00628D5E /* XHSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FC8D1D300B7C00628D5E /* XHSMessageViewController.m */; };
 		0CF2FC911D300B9600628D5E /* XHSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FC901D300B9600628D5E /* XHSDiscoverViewController.m */; };
 		0CF2FC941D300BC600628D5E /* XHSBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FC931D300BC600628D5E /* XHSBuyViewController.m */; };
+		118EA5EAF93A4F718065EDFB /* libPods-小红书.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4C3BF4F774F4A8B98332BF /* libPods-小红书.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB597831D2EC8CA00F0CB63 /* 小红书.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小红书.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB597831D2EC8CA00F0CB63 /* XHS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB597871D2EC8CB00F0CB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB597901D2EC8CB00F0CB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CB597921D2EC8CB00F0CB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +67,29 @@
 		0CB597A71D2EC8CB00F0CB63 /* 小红书UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小红书UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB597AB1D2EC8CB00F0CB63 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		0CB597AD1D2EC8CB00F0CB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD1E9AD1D30B673004261B0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		0CD1E9AE1D30B673004261B0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		0CD1E9B01D30B694004261B0 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		0CD1E9B11D30B694004261B0 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		0CD1E9B61D30CFE3004261B0 /* XHSWaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSWaterLayout.h; sourceTree = "<group>"; };
+		0CD1E9B71D30CFE3004261B0 /* XHSWaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSWaterLayout.m; sourceTree = "<group>"; };
+		0CD1E9B91D310FE9004261B0 /* XHSHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSHomeCell.h; sourceTree = "<group>"; };
+		0CD1E9BA1D310FE9004261B0 /* XHSHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSHomeCell.m; sourceTree = "<group>"; };
+		0CD1E9BB1D310FE9004261B0 /* XHSHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHSHomeCell.xib; sourceTree = "<group>"; };
+		0CD1E9BE1D311B62004261B0 /* XHSHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSHomeModel.h; sourceTree = "<group>"; };
+		0CD1E9BF1D311B62004261B0 /* XHSHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSHomeModel.m; sourceTree = "<group>"; };
+		0CD1E9C11D31206E004261B0 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		0CD1E9C21D31206E004261B0 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		0CD1E9C61D3141C8004261B0 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		0CD50AF71D323C6F00E400C3 /* XHSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSDetailViewController.h; sourceTree = "<group>"; };
+		0CD50AF81D323C6F00E400C3 /* XHSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSDetailViewController.m; sourceTree = "<group>"; };
+		0CD50AFC1D32499F00E400C3 /* XHSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSItem.h; sourceTree = "<group>"; };
+		0CD50AFD1D32499F00E400C3 /* XHSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSItem.m; sourceTree = "<group>"; };
+		0CD50AFF1D32662F00E400C3 /* XHSNewFansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSNewFansViewController.h; sourceTree = "<group>"; };
+		0CD50B001D32662F00E400C3 /* XHSNewFansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSNewFansViewController.m; sourceTree = "<group>"; };
+		0CD50B021D32682000E400C3 /* XHSMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSMessageCell.h; sourceTree = "<group>"; };
+		0CD50B031D32682000E400C3 /* XHSMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSMessageCell.m; sourceTree = "<group>"; };
+		0CD50B041D32682000E400C3 /* XHSMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHSMessageCell.xib; sourceTree = "<group>"; };
 		0CDF624A1D2F552B00C68874 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CDF624B1D2F552B00C68874 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0CF2FC7F1D2FF9BD00628D5E /* XHSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSTabBarController.h; sourceTree = "<group>"; };
@@ -70,6 +107,9 @@
 		0CF2FC901D300B9600628D5E /* XHSDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSDiscoverViewController.m; sourceTree = "<group>"; };
 		0CF2FC921D300BC600628D5E /* XHSBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSBuyViewController.h; sourceTree = "<group>"; };
 		0CF2FC931D300BC600628D5E /* XHSBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSBuyViewController.m; sourceTree = "<group>"; };
+		10C48AAE7DE41ACEA5AF0FBD /* Pods-小红书.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小红书.debug.xcconfig"; path = "Pods/Target Support Files/Pods-小红书/Pods-小红书.debug.xcconfig"; sourceTree = "<group>"; };
+		8B7526C6FAB4C8BF070905DA /* Pods-小红书.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小红书.release.xcconfig"; path = "Pods/Target Support Files/Pods-小红书/Pods-小红书.release.xcconfig"; sourceTree = "<group>"; };
+		FF4C3BF4F774F4A8B98332BF /* libPods-小红书.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-小红书.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118EA5EAF93A4F718065EDFB /* libPods-小红书.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,13 +145,15 @@
 				0CB5979F1D2EC8CB00F0CB63 /* 小红书Tests */,
 				0CB597AA1D2EC8CB00F0CB63 /* 小红书UITests */,
 				0CB597841D2EC8CA00F0CB63 /* Products */,
+				FD90CC529716162A6A489334 /* Pods */,
+				F71F7A66700C0F19EEB9BE42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0CB597841D2EC8CA00F0CB63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CB597831D2EC8CA00F0CB63 /* 小红书.app */,
+				0CB597831D2EC8CA00F0CB63 /* XHS.app */,
 				0CB5979C1D2EC8CB00F0CB63 /* 小红书Tests.xctest */,
 				0CB597A71D2EC8CB00F0CB63 /* 小红书UITests.xctest */,
 			);
@@ -161,6 +204,13 @@
 			path = "小红书UITests";
 			sourceTree = "<group>";
 		};
+		0CD1E9C41D313DBF004261B0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		0CDF62491D2F552B00C68874 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +231,13 @@
 		0CDF624D1D2F552B00C68874 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0CD1E9C61D3141C8004261B0 /* Foundation+Log.m */,
+				0CD1E9AD1D30B673004261B0 /* UIView+Extension.h */,
+				0CD1E9AE1D30B673004261B0 /* UIView+Extension.m */,
+				0CD1E9B01D30B694004261B0 /* UIBarButtonItem+Extension.h */,
+				0CD1E9B11D30B694004261B0 /* UIBarButtonItem+Extension.m */,
+				0CD1E9C11D31206E004261B0 /* UIImage+Extension.h */,
+				0CD1E9C21D31206E004261B0 /* UIImage+Extension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -287,6 +344,10 @@
 			children = (
 				0CF2FC861D2FFB7400628D5E /* XHSHomeViewController.h */,
 				0CF2FC871D2FFB7400628D5E /* XHSHomeViewController.m */,
+				0CD1E9B61D30CFE3004261B0 /* XHSWaterLayout.h */,
+				0CD1E9B71D30CFE3004261B0 /* XHSWaterLayout.m */,
+				0CD50AF71D323C6F00E400C3 /* XHSDetailViewController.h */,
+				0CD50AF81D323C6F00E400C3 /* XHSDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -294,6 +355,8 @@
 		0CDF625A1D2F552B00C68874 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0CD1E9BE1D311B62004261B0 /* XHSHomeModel.h */,
+				0CD1E9BF1D311B62004261B0 /* XHSHomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,6 +364,9 @@
 		0CDF625B1D2F552B00C68874 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0CD1E9B91D310FE9004261B0 /* XHSHomeCell.h */,
+				0CD1E9BA1D310FE9004261B0 /* XHSHomeCell.m */,
+				0CD1E9BB1D310FE9004261B0 /* XHSHomeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -388,6 +454,8 @@
 			children = (
 				0CF2FC8C1D300B7C00628D5E /* XHSMessageViewController.h */,
 				0CF2FC8D1D300B7C00628D5E /* XHSMessageViewController.m */,
+				0CD50AFF1D32662F00E400C3 /* XHSNewFansViewController.h */,
+				0CD50B001D32662F00E400C3 /* XHSNewFansViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -395,6 +463,8 @@
 		0CDF62661D2F552B00C68874 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0CD50AFC1D32499F00E400C3 /* XHSItem.h */,
+				0CD50AFD1D32499F00E400C3 /* XHSItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,6 +472,9 @@
 		0CDF62671D2F552B00C68874 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0CD50B021D32682000E400C3 /* XHSMessageCell.h */,
+				0CD50B031D32682000E400C3 /* XHSMessageCell.m */,
+				0CD50B041D32682000E400C3 /* XHSMessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -416,8 +489,26 @@
 		0CDF62691D2F552B00C68874 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0CD1E9C41D313DBF004261B0 /* API */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		F71F7A66700C0F19EEB9BE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF4C3BF4F774F4A8B98332BF /* libPods-小红书.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD90CC529716162A6A489334 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10C48AAE7DE41ACEA5AF0FBD /* Pods-小红书.debug.xcconfig */,
+				8B7526C6FAB4C8BF070905DA /* Pods-小红书.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,9 +518,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB597B01D2EC8CB00F0CB63 /* Build configuration list for PBXNativeTarget "小红书" */;
 			buildPhases = (
+				F0BAD38A051FC5FEB7322A22 /* 📦 Check Pods Manifest.lock */,
 				0CB5977F1D2EC8CA00F0CB63 /* Sources */,
 				0CB597801D2EC8CA00F0CB63 /* Frameworks */,
 				0CB597811D2EC8CA00F0CB63 /* Resources */,
+				F74D5444138DB00557A1FED6 /* 📦 Embed Pods Frameworks */,
+				2A7D876021D329F6E02A7CCA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -437,7 +531,7 @@
 			);
 			name = "小红书";
 			productName = "小红书";
-			productReference = 0CB597831D2EC8CA00F0CB63 /* 小红书.app */;
+			productReference = 0CB597831D2EC8CA00F0CB63 /* XHS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0CB5979B1D2EC8CB00F0CB63 /* 小红书Tests */ = {
@@ -488,6 +582,7 @@
 				TargetAttributes = {
 					0CB597821D2EC8CA00F0CB63 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VT8GB485LH;
 					};
 					0CB5979B1D2EC8CB00F0CB63 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -524,9 +619,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD1E9BD1D310FE9004261B0 /* XHSHomeCell.xib in Resources */,
 				0CB597961D2EC8CB00F0CB63 /* LaunchScreen.storyboard in Resources */,
 				0CB597931D2EC8CB00F0CB63 /* Assets.xcassets in Resources */,
 				0CB597911D2EC8CB00F0CB63 /* Main.storyboard in Resources */,
+				0CD50B061D32682000E400C3 /* XHSMessageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,20 +643,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A7D876021D329F6E02A7CCA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-小红书/Pods-小红书-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BAD38A051FC5FEB7322A22 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F74D5444138DB00557A1FED6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-小红书/Pods-小红书-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CB5977F1D2EC8CA00F0CB63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD1E9C31D31206E004261B0 /* UIImage+Extension.m in Sources */,
+				0CD1E9B81D30CFE3004261B0 /* XHSWaterLayout.m in Sources */,
+				0CD1E9AF1D30B673004261B0 /* UIView+Extension.m in Sources */,
 				0CF2FC881D2FFB7400628D5E /* XHSHomeViewController.m in Sources */,
 				0CF2FC941D300BC600628D5E /* XHSBuyViewController.m in Sources */,
 				0CF2FC811D2FF9BD00628D5E /* XHSTabBarController.m in Sources */,
 				0CF2FC8B1D300B5D00628D5E /* XHSMeViewController.m in Sources */,
+				0CD50AF91D323C6F00E400C3 /* XHSDetailViewController.m in Sources */,
+				0CD1E9C01D311B62004261B0 /* XHSHomeModel.m in Sources */,
 				0CDF626A1D2F552B00C68874 /* AppDelegate.m in Sources */,
+				0CD1E9B21D30B694004261B0 /* UIBarButtonItem+Extension.m in Sources */,
 				0CB597881D2EC8CB00F0CB63 /* main.m in Sources */,
 				0CF2FC8E1D300B7C00628D5E /* XHSMessageViewController.m in Sources */,
 				0CF2FC841D2FFA0300628D5E /* XHSNavigationController.m in Sources */,
+				0CD1E9BC1D310FE9004261B0 /* XHSHomeCell.m in Sources */,
+				0CD50B051D32682000E400C3 /* XHSMessageCell.m in Sources */,
+				0CD50B011D32662F00E400C3 /* XHSNewFansViewController.m in Sources */,
 				0CF2FC911D300B9600628D5E /* XHSDiscoverViewController.m in Sources */,
+				0CD50AFE1D32499F00E400C3 /* XHSItem.m in Sources */,
+				0CD1E9C71D3141C8004261B0 /* Foundation+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,27 +854,33 @@
 		};
 		0CB597B11D2EC8CB00F0CB63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C48AAE7DE41ACEA5AF0FBD /* Pods-小红书.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "小红书/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "小红书/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HIT.---";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = XHS;
 			};
 			name = Debug;
 		};
 		0CB597B21D2EC8CB00F0CB63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7526C6FAB4C8BF070905DA /* Pods-小红书.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "小红书/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "小红书/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HIT.---";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = XHS;
 			};
 			name = Release;
 		};

@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+target '小红书' do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'UITableView+FDTemplateLayoutCell'
+
+end

@@ -10,4 +10,15 @@
 
 @implementation XHSNavigationController
 
++ (void)initialize
+{
+
+    UINavigationBar *bar = [UINavigationBar appearance];
+    NSMutableDictionary *itemAttrs = [NSMutableDictionary dictionary];
+    itemAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+    itemAttrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:17];
+    [bar setTitleTextAttributes:itemAttrs];
+
+}
+
 @end

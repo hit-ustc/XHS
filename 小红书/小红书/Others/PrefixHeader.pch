@@ -9,10 +9,14 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIImage+Extension.h"
+
 
 #define JSRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
-#define JSGlobalBg JSRGBColor(247, 247, 247)
+#define JSGlobalBg JSRGBColor(242, 246, 249)
 #define JSTabBarItemTitleColor JSRGBColor(255, 0, 45)
 
 #define JSTagFont [UIFont systemFontOfSize:14]

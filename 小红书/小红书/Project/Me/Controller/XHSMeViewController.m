@@ -17,23 +17,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setupNav];
+
+}
+
+- (void)setupNav {
+    
     self.view.backgroundColor = JSGlobalBg;
-
+    
+    UIBarButtonItem *adduser = [UIBarButtonItem js_itemWithImage:@"xy_btn_invite~iphone" highImage:nil target:self action:@selector(addUserClick)];
+    UIBarButtonItem *setting = [UIBarButtonItem js_itemWithImage:@"xy_btn_setting~iphone" highImage:nil target:self action:@selector(setting)];
+    
+    self.navigationItem.leftBarButtonItem = adduser;
+    self.navigationItem.rightBarButtonItem = setting;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)addUserClick {
+    
+    NSLog(@"addUser...");
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setting {
+    
+    NSLog(@"setting...");
+    
 }
-*/
 
 @end
