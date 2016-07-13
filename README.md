@@ -3,7 +3,7 @@
 
 This project is mainly used to learn iOS development. We imitate [xiaohongshu](http://www.xiaohongshu.com/) app, this project is only for learn to study, without any commercial use. 
 
-At present, we work a part of functions of the project. Later, we will gradually improve it.
+At present, we have completed a part of functions of the project. Later, we will gradually improve it.
 
 Of course, there are many mistakes and shortcomings, we can learn and progress together, thank you!
 
